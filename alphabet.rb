@@ -1,7 +1,7 @@
 def AlphabetSoup(str)
 
   alpha = str.split(//)
-  alpha.sort!
+  alpha.sort
   
   return alpha.join 
          
